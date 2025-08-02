@@ -29,6 +29,13 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# Binaries and Libraries
+bin/
+lib/
+lib64/
+include/
+share/
+
 # Virtual Environment
 venv/
 env/
@@ -36,6 +43,7 @@ ENV/
 env.bak/
 venv.bak/
 .virtualenv/
+pyvenv.cfg
 
 # IDE and Editor
 .vscode/
