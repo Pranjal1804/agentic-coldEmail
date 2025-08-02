@@ -1,0 +1,163 @@
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.virtualenv/
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data Files (sensitive contact information)
+data/
+*.csv
+*.xlsx
+*.json
+contacts/
+emails/
+sent_emails/
+
+# Logs
+*.log
+logs/
+log/
+
+# API Keys and Credentials
+api_keys.txt
+credentials.json
+token.json
+*.pem
+*.key
+
+# Email Templates (if they contain sensitive info)
+templates/sent/
+templates/drafts/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache
+.cache/
+*.cache
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Screenshots and Media
+screenshots/
+images/
+media/
+
+# Configuration Files (if they contain sensitive data)
+config.json
+settings.json
+
+# Package Manager
+node_modules/
+package-lock.json
+yarn.lock
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+.coverage.*
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Backup Files
+*.bak
+*.backup
+backup/
+
+# Email Campaign Data
+campaigns/
+analytics/
+metrics/
+
+# Generated Reports
+reports/
+output/
+results/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Gmail API Credentials
+gmail_token.json
+gmail_credentials.json
+
+# SendGrid API
+sendgrid_api_key.txt
+
+# OpenAI API
+openai_api_key.txt
+
+# SerpAPI
+serpapi_key.txt
+
+# Local development files
+local_config.py
+test_emails.py
+debug.py
